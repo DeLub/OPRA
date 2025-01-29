@@ -1,0 +1,70 @@
+{
+  "author": "oratory1990",
+  "details": "Optimum HiFi Curve",
+  "type": "parametric_eq",
+  "parameters": {
+    "gain_db": -5.8,
+    "bands": [
+      {
+        "type": "low_shelf",
+        "frequency": 25,
+        "gain_db": 6.0,
+        "q": 0.71
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 150,
+        "gain_db": -2.9,
+        "q": 0.5
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 1330,
+        "gain_db": -2.0,
+        "q": 1.4
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 3150,
+        "gain_db": -3.1,
+        "q": 2.2
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 3500,
+        "gain_db": -1.0,
+        "q": 4.0
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 5000,
+        "gain_db": -1.2,
+        "q": 6.0
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 5850,
+        "gain_db": -2.2,
+        "q": 4.5
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 5600,
+        "gain_db": 2.0,
+        "q": 0.71
+      },
+      {
+        "type": "peak_dip",
+        "frequency": 7710,
+        "gain_db": -2.5,
+        "q": 5.0
+      },
+      {
+        "type": "high_shelf",
+        "frequency": 13000,
+        "gain_db": -3.0,
+        "q": 0.71
+      }
+    ]
+  }
+}
